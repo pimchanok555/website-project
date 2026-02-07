@@ -1,0 +1,105 @@
+body {
+      font-family: "Playfair Display", serif;
+}
+
+.about-me {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #00263e;
+    
+    
+}
+
+.profile-pic {
+    width: 255px;
+    height: 255px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+ 
+} 
+
+.container {
+    background-color: white;
+    min-height: 100vh;
+    padding: 128px;
+    
+}
+
+.content {
+    max-width: 680px;
+    margin-bottom: 48px;
+     color: #00263e;
+    
+    
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    font-variant-numeric: tabular-nums;
+    
+}
+
+.contact-item {
+    margin-bottom: 4px;
+     color: #00263e;
+    
+}
+
+
+.contact-icon {
+    margin-right: 12px;
+    width: 16px;
+    color: #00263e;  
+}
+
+.container { 
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7)), url("https://images.unsplash.com/photo-1550622824-928e5f246f81?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    min-height: 100vh;
+    padding: 128px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 64px;
+    }
+}
+
+.job {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+     color: #00263e;
+    
+
+}
+.name {
+    font-size: 75px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    color: #00263e;
+    
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff8200;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+
+    
+}
+
+
+
+
+
